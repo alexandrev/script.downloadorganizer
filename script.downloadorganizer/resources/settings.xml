@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting label="Download Folder" type="folder"   id="downloadFolder" />
+        <setting label="Movies Root Folder" type="folder"   id="movieRootFolder" />
+        <setting label="TV Shows Root Folder" type="folder" id="tvshowRootFolder"/>
+    </category>
+    <category label="Video File Extensions">
+        <setting label="avi" type="bool"   id="avi" value="true" default="true" />
+        <setting label="mp4" type="bool"   id="mp4" value="true" default="true" />
+        <setting label="mkv" type="bool"   id="mkv" value="true" default="true" />
+    </category>
+</settings>
