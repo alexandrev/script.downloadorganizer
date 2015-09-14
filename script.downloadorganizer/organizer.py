@@ -1,7 +1,6 @@
 import os
 import re
 import time
-#import xbmcaddon
 import xbmc
 import organizer
 

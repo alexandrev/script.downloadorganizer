@@ -4,10 +4,7 @@ import organizer
 
 
 if __name__ == '__main__':
-	## This have to be recovered from the settings.xml
-        
-	
-	
+	## This have to be recovered from the settings.xml	
 	xbmc.log('Recovering the settings values for the execution')
 	settings = xbmcaddon.Addon(id='script.downloadorganizer')
 	
