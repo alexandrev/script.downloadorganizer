@@ -28,7 +28,8 @@ if __name__ == '__main__':
         tvshowsRootFolder = settings.getSetting("tvshowRootFolder")
         xbmc.log("TV Shows Folder"+tvshowsRootFolder)                
         organizer.organize(downloadFolder,tvshowsRootFolder,moviesRootFolder,extensions)
-        xbmc.executebuiltin('XBMC.Notification("DownloadOrganizer","Video files haven been organized",10)')
+        xbmc.executebuiltin('UpdateLibrary("video")') 
+        xbmc.executebuiltin('XBMC.Notification("DownloadOrganizer","Video files haven been organized",10)')              
         # Sleep/wait for abort for 3600 seconds
         if monitor.waitForAbort(3600):
             # Abort was requested while waiting. We should exit
